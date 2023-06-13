@@ -1,0 +1,116 @@
+/* Body */
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Nav bar */
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.navright :first-child p{
+    font-weight: bolder;
+}
+
+.navLeft{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: start;
+    padding-left: 40px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navright{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Main */
+main{
+    color: white;
+}
+
+.top{
+    height: 80%;
+    background-image: url(../images/fond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slogan{
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 120px;
+    width: 70%;
+    height: 600px;
+    /* background-color: green;
+    opacity: 30%; */
+    border-radius: 30px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.right{
+    width: 40%;
+    height: 80%;
+    text-align: right;
+}
+
+h2 {
+    color: #ECC600;
+    font-size: 5rem;
+    font-weight: bolder;
+    opacity: 100%;
+}
+
+.contact {
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #ECC600;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.histoire{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 40%;
+    text-align: end;
+    line-height: 1.3em;
+}
+
+.technos{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(236, 198, 0);
+}
