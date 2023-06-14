@@ -1,11 +1,14 @@
-/* Body */
+
 body{
-    background-color: black;
     font-family: 'Poppins', sans-serif;
 }
 
+.active {
+    font-weight: 600;
+    text-decoration: underline;
+}
 
-/* Nav bar */
+/* 
 nav{
     position: fixed;
     z-index: 1;
@@ -45,7 +48,7 @@ nav a {
 }
 
 
-/* Main */
+
 main{
     color: white;
 }
@@ -66,8 +69,6 @@ main{
     top: 120px;
     width: 70%;
     height: 600px;
-    /* background-color: green;
-    opacity: 30%; */
     border-radius: 30px;
     align-items: flex-start;
     justify-content: flex-end;
@@ -117,3 +118,16 @@ h2 {
     background-color: rgb(236, 198, 0);
 }
 
+
+<div class="top">
+    <div class="slogan"> 
+        <div class="right">
+            <h2>Une solution pour chaque projet</h2>
+            <button class="contact" type="button">Contacte moi</button> 
+        </div>
+    </div>
+    <div class="histoire">
+        <p>Je m'appelle Adrien, développeur web freelance spécialisé dans la création de sites internet sur mesure. Je travaille en étroite collaboration avec mes clients pour comprendre leurs besoins spécifiques et créer des solutions personnalisées. Fort de mes compétences en HTML, CSS, JavaScript et des frameworks populaires, mon engagement envers mes clients se traduit par un service professionnel et une attention aux détails. Si vous cherchez un partenaire de confiance pour développer ou améliorer votre présence en ligne, je serais ravi de discuter de votre projet. Contactez-moi et nous transformerons votre projet en réalité.</p>
+        <button class="contact" type="button">Contacte moi</button>
+    </div>
+</div> */
