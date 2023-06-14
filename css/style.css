@@ -51,7 +51,8 @@ main{
 }
 
 .top{
-    height: 80%;
+
+    min-height: 950px;
     background-image: url(../images/fond.jpg);
     background-position: center;
     background-size: cover;
@@ -87,6 +88,7 @@ h2 {
 
 .contact {
     margin-top: 35px;
+    margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     border: 0;
     line-height: 2.5;
