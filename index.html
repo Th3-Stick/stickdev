@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -11,6 +12,8 @@
 
     <title>StickDev</title>
 </head>
+
+<!-- Navbar -->
 <body class="bg-black">
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid P-2">
@@ -27,27 +30,28 @@
                         <a id="link_portfolio" class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item ms-3">
-                        <a class="nav-link" href="#">Projets</a>
+                        <a id="link_projets" class="nav-link" href="#">Projets</a>
                     </li>
                     <li class="nav-item ms-3">
-                        <a class="nav-link" href="#">About</a>
+                        <a id="link_about" class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item ms-3">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a id="link_blog" class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item ms-3">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a id="link_contact" class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+<!-- Page Home -->
     <div class="page home show">
             <div class="container">
                 <div class="row">
                     <div class="col8">
-                        <h1 class="text-end">Une solution pour chaque projet</h2>
+                        <h1 class="text-end mt-3">Une solution pour chaque projet</h2>
                     </div>
                     <div class="col4 text-light">
                         <p>Je m'appelle Adrien, développeur web freelance spécialisé dans la création de sites internet sur mesure. Je travaille en étroite collaboration avec mes clients pour comprendre leurs besoins spécifiques et créer des solutions personnalisées. Fort de mes compétences en HTML, CSS, JavaScript et des frameworks populaires, mon engagement envers mes clients se traduit par un service professionnel et une attention aux détails. Si vous cherchez un partenaire de confiance pour développer ou améliorer votre présence en ligne, je serais ravi de discuter de votre projet. Contactez-moi et nous transformerons votre projet en réalité.</p>
@@ -64,11 +68,136 @@
                 <div class="col8"></div>
             </div>
     </div>
-    
+
+    <div class="page projets">
+        <div class="row">
+            <div class="col4">
+                <h1>bla bla Projets</h1>
+            </div>
+            <div class="col8"></div>
+        </div>
+</div>
+
+<div class="page about">
+    <div class="row">
+        <div class="col4">
+            <h1>bla bla about</h1>
+        </div>
+        <div class="col8"></div>
+    </div>
+</div>
+
+<div class="page blog">
+    <div class="row">
+        <div class="col4">
+            <h1>bla bla blog</h1>
+        </div>
+        <div class="col8"></div>
+    </div>
+</div>
+
+<!-- Page Contact -->
+<div class="page contact">
+    <div class="bg_contact">
+        <div class="container">
+            <div class="text-start mb-3">
+                <h1>Contacte moi</h1>
+            </div>
+            <div class="row">
+                <div class="col-6 "></div>
+                <div class="text-end col-6 text-light">
+                    <p>Tu souhaites passer à l'étape suivante ?
+                        Que tu sois un entrepreneur en herbe, une petite entreprise ambitieuse ou un particulier ayant besoin d'un site web professionnel, je suis là pour t'aider à concrétiser tes idées. <br><br>
+                        Que ce soit pour une refonte complète de ton site existant ou pour la création d'un tout nouveau projet en ligne, je suis prêt à mettre mes compétences et mon expertise à ton service.<br><br>
+                        N'hésite pas à me contacter pour discuter de ton projet et de tes objectifs. Je serai ravi de t'offrir une consultation gratuite pour comprendre tes besoins et te proposer des solutions adaptées. Que ce soit pour une simple question ou pour entamer une collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="row mb-3 mt-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Prénom" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nom" aria-label="Last name">
+                </div>
+            </div>
+
+            <div class="mb-3 text-light">
+                <label for="exampleInputEmail1" class="form-label"></label>
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="Votre adresse mail">
+            </div>
+
+            <div class="mb-3 text-light">
+                <label for="exampleInputEmail1" class="form-label"></label>
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="Votre numéro de téléphone">
+            </div>
+
+            <div class="mb-3 text-light">
+                <label for="exampleFormControlTextarea1" class="form-label">Quel est votre projet ?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <p class="ms-6 text-light text-decoration-underline">Je prèfère être contacté :</p>
+
+            <div class="form-check text-light">
+                
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                <label class="form-check-label" for="flexCheckDefault">
+                Par mail
+                </label>
+            </div>
+
+            <div class="form-check text-light mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                    Par téléphone
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+</div>
 
 
+<!-- footer -->
+<div class="footer">
+    <div class="row mt-3">
+        <div class="col-4">
+            <div class="card text-light">
+                <div class="card-header">
+                Stick Dev Web
+                </div>
+                <div class="card-body pt-0">
+                <p class="card-text mb-1">rejoins moi sur mes réseaux :</p>
+                    <div class="fs-4">
+                        <a href="https://www.linkedin.com/in/adrien-delaigue/" target="_blank" class="ms-2 text-light bi bi-linkedin"></a>
+                        <a href="https://github.com/Th3-Stick" target="_blank" class="ms-2 text-light bi bi-github"></a>
+                        <a href="https://discord.gg/fdDKSX22dr" target="_blank" class="ms-2 text-light bi bi-discord"></a>
+                        <a href="https://twitter.com/Striker_six" target="_blank" class="ms-2 text-light bi bi-twitter"></a>
+                        <a href="https://www.instagram.com/th3_stick/" target="_blank" class="ms-2 text-light bi bi-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="col-4 text-light text-center pt-2">
+            <p>Copyright © 2023 StickDev Web</p>
+        </div>
 
+        <div class="col-4 text-light text-end pe-4 pt-2">
+            <a href="#" class="text-light bi bi-shield-check"> Privacy Policy</a><br>
+            <a href="#" class="text-light bi bi-pencil-square"> Terms & Conditions</a>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="js/nav.js"></script>
 </body>
