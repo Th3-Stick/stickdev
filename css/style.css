@@ -3,6 +3,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.footer .row{
+    border-top: 2px solid rgb(236, 198, 0);
+}
+
+.footer .card{
+    background-color: black;
+}
+
 .active {
     font-weight: 600;
     text-decoration: underline;
@@ -26,4 +34,12 @@ h1{
 
 .show {
     display: block;
+}
+
+.bg_contact{
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
