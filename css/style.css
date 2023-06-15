@@ -13,7 +13,6 @@ body{
 
 .active {
     font-weight: 600;
-    text-decoration: underline;
 }
 
 .home{
@@ -42,4 +41,32 @@ h1{
     background-position: bottom;
     background-repeat: no-repeat;
     min-height: 500px;
+}
+
+input[type="checkbox"]:checked {
+    position: relative;
+    background: rgb(236, 198, 0);
+}
+
+input[type="checkbox"]:checked:before {
+    content: '\2714';
+    display: block;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    bottom: -8px;
+}
+
+
+.btn-primary {
+    background-color: rgb(236, 198, 0);
+    border-color: rgb(117, 99, 5);
+}
+
+.link-underline-none {
+    text-decoration: none;
+}
+
+.link-underline-hover:hover {
+    text-decoration: underline;
 }
