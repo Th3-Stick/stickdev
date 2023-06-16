@@ -9,7 +9,7 @@ const nav = {
         nav.blog = document.querySelector('.blog');
         nav.contact = document.querySelector('.contact');
 
-        nav.links = document.querySelectorAll('.navbar-nav a');
+        nav.links = document.querySelectorAll('.navbar a');
         nav.links.forEach(function(link) {
             link.addEventListener("click", nav.handleClickNav);
         });
@@ -25,7 +25,7 @@ const nav = {
         nav.pages.forEach(function(page) {
             page.classList.remove('show');
         });
-        if (event.target.id === 'link_home') {
+        if (event.target.id === 'link_home' || event.target.id === 'link_brand') {
             nav.homePage.classList.add('show');
         } else if (event.target.id === 'link_portfolio')  {
             nav.portfolio.classList.add('show');
