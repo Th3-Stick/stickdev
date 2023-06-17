@@ -123,22 +123,22 @@
         <form>
             <div class="row mb-3 mt-3">
                 <div class="col-6">
-                    <input type="text" class="form-control" placeholder="Prénom"/>
+                    <input name="prenom" type="text" class="form-control" placeholder="Prénom"/>
                 </div>
                 <div class="col-6">
-                    <input type="text" class="form-control" placeholder="Nom"/>
+                    <input name="nom" type="text" class="form-control" placeholder="Nom"/>
                 </div>
             </div>
 
             <div class="row text-light">
                 <div class="col-12 mb-3 ">
-                    <input type="email" class="form-control" id="floatingInputValue" placeholder="Votre adresse mail"/>
+                    <input name="adresseMail" type="email" class="form-control" id="floatingInputValue" placeholder="Votre adresse mail"/>
                 </div>
             </div>
 
             <div class="row text-light">
                 <div class="col-12 mb-3">
-                    <input type="email" class="form-control" id="floatingInputValue" placeholder="Votre numéro de téléphone"/>
+                    <input name="telephone" type="text" class="form-control" id="floatingInputValue" placeholder="Votre numéro de téléphone"/>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@
             <div class="row text-light">
                 <div class="col-12 mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Quel est votre projet ?</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea name="messageContent" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </div>
 
@@ -154,7 +154,7 @@
 
             <div class="ms-1 row text-light">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked/>
+                    <input name="parMail" class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked/>
                     <label class="form-check-label" for="flexCheckDefault">Par mail</label>
                 </div>
             </div>
@@ -162,14 +162,14 @@
 
             <div class="ms-1 row text-light">
                 <div class="form-check mb-3">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"/>
+                    <input name="parTelephone" class="form-check-input" type="checkbox" value="" id="flexCheckChecked"/>
                     <label class="form-check-label" for="flexCheckChecked">Par téléphone</label>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <button name="submitContact" type="submit" class="btn btn-primary">Envoyer</button>
                 </div>
             </div>
 
