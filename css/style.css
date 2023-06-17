@@ -1,30 +1,6 @@
-
+/* Style globale */
 body{
     font-family: 'Poppins', sans-serif;
-}
-
-.footer .row{
-    border-top: 2px solid rgb(236, 198, 0);
-}
-
-.footer .card{
-    background-color: black;
-}
-
-.active {
-    font-weight: 600;
-}
-
-.home{
-    background-image: url('../images/fond.jpg');
-    background-size: initial;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-h1{
-    color: rgb(236, 198, 0) ;
-    font-size: 5rem;
 }
 
 .page {
@@ -35,6 +11,36 @@ h1{
     display: block;
 }
 
+h1{
+    color: rgb(236, 198, 0) ;
+    font-size: 5rem;
+}
+
+/* Nav barre */
+.active {
+    font-weight: 600;
+}
+
+/* footer */
+.footer .row{
+    border-top: 2px solid rgb(236, 198, 0);
+}
+
+.footer .card{
+    background-color: black;
+}
+
+
+/* Page Home */
+#home_content{
+    background-image: url('../images/fond.jpg');
+    background-size: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Page contact */
 .bg_contact{
     background-image: url('../images/contact.jpg');
     background-size: cover;
@@ -56,7 +62,6 @@ input[type="checkbox"]:checked:before {
     position: absolute;
     bottom: -8px;
 }
-
 
 .btn-primary {
     background-color: rgb(236, 198, 0);
