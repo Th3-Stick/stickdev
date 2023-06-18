@@ -18,7 +18,7 @@ const nav = {
             page.classList.remove('show');
         });
 
-        nav.show = document.querySelector('#'+event.currentTarget.id+'_content')
+        nav.show = document.querySelector(event.currentTarget.getAttribute("href")+'_content')
         nav.show.classList.add('show');
     
     }
