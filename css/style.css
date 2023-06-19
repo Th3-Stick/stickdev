@@ -14,8 +14,19 @@ body{
 h1{
     color: rgb(236, 198, 0) ;
     font-size: 5rem;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
+p{
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+}
 /* Nav barre */
 .active {
     font-weight: 600;
@@ -32,22 +43,39 @@ h1{
 
 
 /* Page Home */
-#home_content{
-    background-image: url('../images/fond.jpg');
-    background-size: initial;
-    background-position: center;
-    background-repeat: no-repeat;
+.home{
+    background-image: url('../images/homeCut.jpg');
+    background-position: bottom;
 }
 
+/* Page portfolio */
+.portfolio{
+    background-image: url('../images/portfolio.jpg');
+}
+
+/* Page projets */
+.projects{
+    background-image: url('../images/projectsCut.jpg');
+}
+
+/* Page about */
+.about{
+    background-image: url('../images/aboutCut.jpg');
+    background-position: bottom;
+}
+
+/* Page blog */
+.blog{
+    background-image: url('../images/blogCut.jpg');
+}
 
 /* Page contact */
-.bg_contact{
-    background-image: url('../images/contact.jpg');
-    background-size: cover;
+.contact{
+    background-image: url('../images/contactCut.jpg');
     background-position: bottom;
-    background-repeat: no-repeat;
-    min-height: 500px;
 }
+
+
 
 input[type="checkbox"]:checked {
     position: relative;
